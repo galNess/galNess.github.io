@@ -1,0 +1,36 @@
+<!-- ArXiv Preprints -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="page-section" id="{{ site.data.sitetext[site.locale].preprints.section | default: "preprints" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].preprints.title | default: "ArXiv Preprints" }}</h2>
+        <h3 class="section-subheading text-muted">
+		</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-left">
+        <div class="large text-muted">{{ site.data.sitetext[site.locale].preprints.body | markdownify }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.preprints.section | default: "preprints" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.preprints.title | default: "ArXiv Preprints" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.preprints.text | default: "" }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-left">
+        <div class="large text-muted">{{ site.data.sitetext.preprints.body | markdownify }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End preprints -->

@@ -1,0 +1,904 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+  
+  intro:
+    text: "Flying is easy once you forget about the feathers and focus on the wings."
+  
+    body: "
+    Hi! My name is Gal Ness, and I am an independent researcher.
+    I earned my physics Ph.D. in the experimental group of prof. [Yoav Sagi](https://phsites.technion.ac.il/sagi/) at the [Technion](https://www.technion.ac.il/en/), and I am up for my next adventure.
+    I thrive on tackling challenging problems by analytically purifying their underlying functionality and inventing unconventional solutions.
+    <br><br>
+    
+    <center>
+    <div class='col-md-7'>
+      Find me on:
+      <ul class='list-inline social-buttons'>
+        <li class='list-inline-item'>
+          <a href='https://www.github.com/galNess' title='GitHub'><i class='fab fa-github'></i></a>
+        </li>
+        <li class='list-inline-item'>
+          <a href='https://scholar.google.com/citations?user=etrneOoAAAAJ&hl=en' title='Google Scholar'><i class='ai ai-google-scholar'></i></a>
+        </li>
+        <li class='list-inline-item'>
+          <a href='https://linkedin.com/in/Gal-Ness' title='LinkedIn'><i class='fab fa-linkedin-in'></i></a>
+        </li>
+        <li class='list-inline-item'>
+          <a href='http://orcid.org/0000-0003-3598-134X' title='ORCID'><i class='ai ai-orcid'></i></a>
+        </li>
+        <li class='list-inline-item'>
+          <a href='https://www.researchgate.net/profile/Gal-Ness' title='ResearchGate'><i class='fab fa-researchgate'></i></a>
+        </li>
+      </ul>
+    </div>
+    <br><br>
+	Following is a list of publications I co-authored with presentations I gave.
+    <br>
+    Citations are tracked by <a href='https://scholar.google.com/citations?user=etrneOoAAAAJ&hl=en'>Google Scholar</a> (slow crawler) and <a href='https://www.researchgate.net/profile/Gal-Ness/stats'>ResearchGate</a> (faster).
+    </center>
+    "
+
+  papers:
+    body: "
+    **Gal Ness**, Manolo R. Lam, Wolfgang Alt, [Dieter Meschede](http://quantum-technologies.iap.uni-bonn.de/en/group-members/79-dieter-meschede.html), [Yoav Sagi](https://phsites.technion.ac.il/sagi/), and [Andrea Alberti](https://www.quantum-munich.de/person/123080/33307),
+             
+    ### Observing crossover between quantum speed limits 
+
+    ##### [_Science Advances_ (2021)](https://www.science.org/doi/10.1126/sciadv.abj9119 ## 'link to paper')
+
+    <details><summary><span title='click to expand'>TL;DR</span></summary>
+      
+    First experimental observation of the transition between the two fundamental speed limits in a multi-level system which set the ultimate rate of quantum computation and other quantum applications.
+    <br><br></details>
+    
+    <details><summary><span title='click to expand'>Conferences</span></summary>
+    
+    <ul>
+    <li>Technion symposium in honor of the 2022 Wolf Prize Laureates in Physics (Israel, 2022).
+    </li>
+    <li><a href='https://www.uibk.ac.at/th-physik/obergurgl2022/'>Quantum Optics Obergurgl 2022</a> (Austria, 2022).
+    </li>
+    <li>Helen Diller Quantum Center quantum retreat (Israel, 2021). <strong>Watch it</strong>: <a href='https://youtu.be/USOKFHl7UZE' title='youtube'><i class='fab fa-youtube' style='color:#FF0000'></i></a>
+    </li>
+    <li>VI-EGAS52: The 52nd Conference of the European Group on Atomic Systems (virtual, 2021).
+    </li>
+    <li><a href='https://meetings.aps.org/Meeting/DAMOP21/Content/4045'>DAMOP 2021</a>: The 52nd Annual Meeting of the APS Division of Atomic, Molecular and Optical Physics (virtual, 2021).
+    </li>
+    <li>Unmasked - Open Quantum Systems in the Golan (Israel, 2021).
+    </li>
+    <li>Helen Diller Quantum Center quantum science prize (virtual, 2020). <strong>Best presentation award</strong> <i class='fas fa-star' style='color:#FFD43B'></i>
+    </li>
+    </ul>
+    
+    <br><br></details>
+    
+    <details><summary><span title='click to expand'>Media coverage</span></summary>
+      
+    <ul>
+    <li><a href='https://phys.org/news/2021-12-quantum-marbles-bowl.html'>PHYS.ORG</a></li>
+    <li><a href='https://www.technion.ac.il/en/2021/12/quantum-speed-limit-computation-computers/'>Technion press</a></li>
+    <li><a href='https://www.syfy.com/syfy-wire/quantum-computers-have-not-one-but-two-speed-limits'>SYFY Wire</a></li>
+    <li>Technion physics department <a href='https://phys.technion.ac.il/en/about/research-bits/quantum-marbles-in-a-bowl-of-light'>research bits</a></li>
+    <li>17 news outlets by <a href='https://scienceadvances.altmetric.com/details/119591544/news'>Altmetric</a></li>
+    </ul>
+    
+    <br><br></details>
+    
+    <details><summary><span title='click to expand'>Cite it!</span></summary>
+    
+    <center>(BibTeX code)</center>
+    
+    <pre><code>
+    
+      @Article{Ness2021,
+
+      author    = {Gal Ness and Manolo R. Lam and Wolfgang Alt and Dieter Meschede and Yoav Sagi and Andrea Alberti},
+
+      journal   = {Science Advances},
+
+      title     = {Observing crossover between quantum speed limits},
+
+      year      = {2021},
+
+      month     = {dec},
+
+      number    = {52},
+
+      volume    = {7},
+
+      doi       = {10.1126/sciadv.abj9119},
+
+      publisher = {American Association for the Advancement of Science ({AAAS})},
+
+    }
+
+    </code></pre>
+    
+    <br><br></details>
+    
+    <center>
+    <div class='col-md-3'>
+    <ul class='list-inline social-buttons'>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://doi.org/10.1126/sciadv.abj9119' title='DOI'><i class='ai ai-doi' style='color:#FFB625'></i></a>
+      </span></li>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://arxiv.org/abs/2104.05638' title='arXiv'><i class='ai ai-arxiv' style='color:#FFF853'></i></a>
+      </span></li>
+    </ul>
+    </div>  
+    </center>
+    
+    <br><br><br><br>
+
+    **Gal Ness**, Constantine Shkedrov, Yanay Florshaim, Oriana K. Diessel, Jonas von Milczewski, [Richard Schmidt](https://www.mpq.mpg.de/5626798/schmidt), and [Yoav Sagi](https://phsites.technion.ac.il/sagi/),
+
+    ### Observation of a Smooth Polaron-Molecule Transition in a Degenerate Fermi Gas
+
+    ##### [_Physical Review X_ (2020)](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.10.041019 ## 'link to paper') 
+    
+    ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Awarded the Jacobs publication excellence prize <i class='fas fa-star' style='color:#FFD43B'></i>
+
+    <details><summary><span title='click to expand'>TL;DR</span></summary>
+      
+    Experimental and theoretical investigation of a fundamental transition emerges when the interaction in a highly imbalanced quantum (Fermi) system varies.
+    <br><br></details>
+    
+    <details><summary><span title='click to expand'>Conferences</span></summary>
+      
+    <ul>
+    <li>Helen Diller Quantum Center Quantum Retreat Day (Israel, 2021).  <strong>Watch it</strong>: <a href='https://youtu.be/WT9ycEE-uWI' title='youtube'><i class='fab fa-youtube' style='color:#FF0000'></i></a> . <strong>Best presentation award</strong> <i class='fas fa-star' style='color:#FFD43B'></i></li>
+    <li><a href='https://www.israelphysicalsociety.org/ips-conference-2021/ips-conference-2021-homepage'>IPS2021</a>: The 66th Annual Meeting of the Israel Physical Society (virtual, 2021).</li>
+    <li>Selected to be presented in the 1st young researchers&#39; session of the <a href='https://quantumscienceseminar.com/'>Quantum Science Seminar</a> (virtual, 2020).  <strong>Watch it</strong>: <a href='https://youtu.be/_qkNsLOoJXU?t=1209' title='youtube'><i class='fab fa-youtube' style='color:#FF0000'></i></a></li>
+    <li><a href='https://www.israelphysicalsociety.org/ips-conference-2020/ips-conference-2020-homepage'>IPS2020</a>: The 65th Annual Meeting of the Israel Physical Society (Israel, 2020).</li>
+    <li>QUEST2019: Quantum Entanglement Science &amp; Technology workshop. (Israel, 2019).</li>
+    <li>MCQST–Technion symposium on Quantum Science and Technology (Germany, 2019).</li>
+    <li>MICE2019: Molecules, Trapped Ions and Cold Atom Engineering (Israel, 2019). <strong>Best poster award</strong> <i class='fas fa-star' style='color:#FFD43B'></i></li>
+    </ul>
+    
+    <br><br></details>
+    
+    <details><summary><span title='click to expand'>Media coverage</span></summary>
+      
+    <ul>
+    <li><a href='https://link.aps.org/doi/10.1103/Physics.13.s138'>Physics (APS) synopsis</a></li>
+    <li>Technion physics department <a href='https://phys.technion.ac.il/en/about/research-bits/yoav-sagi-group-physrevx-oct2020'>research bits</a></li>
+    </ul>
+    
+    <br><br></details>
+    
+    <details><summary><span title='click to expand'>Cite it!</span></summary>
+    
+    <center>(BibTeX code)</center>
+    
+    <pre><code>
+
+      @Article{Ness2020,
+      
+      author    = {Gal Ness and Constantine Shkedrov and Yanay Florshaim and Oriana K. Diessel and Jonas von Milczewski and Richard Schmidt and Yoav Sagi},
+      
+      journal   = {Physical Review X},
+      
+      title     = {Observation of a Smooth Polaron-Molecule Transition in a Degenerate {F}ermi Gas},
+      
+      year      = {2020},
+      
+      month     = {oct},
+      
+      number    = {4},
+      
+      pages     = {041019},
+      
+      volume    = {10},
+      
+      doi       = {10.1103/physrevx.10.041019},
+      
+      publisher = {American Physical Society ({APS})},
+
+    }
+
+    </code></pre>
+    
+    <br><br></details>
+    
+    <center>
+    <div class='col-md-3'>
+    <ul class='list-inline social-buttons'>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://doi.org/10.1103/PhysRevX.10.041019' title='DOI'><i class='ai ai-doi' style='color:#FFB625'></i></a>
+      </span></li>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://arxiv.org/abs/2001.10450' title='arXiv'><i class='ai ai-arxiv' style='color:#FFF853'></i></a>
+      </span></li>
+    </ul>
+    </div>  
+    </center>
+    
+    <br><br><br><br>
+
+    **Gal Ness**, Anastasiya Vainbaum, Constantine Shkedrov, Yanay Florshaim, and [Yoav Sagi](https://phsites.technion.ac.il/sagi/),
+
+    ### Single-exposure absorption imaging of ultracold atoms using deep learning
+
+    ##### [_Physical Review Applied_ (2020)](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.14.014011 ## 'link to paper')
+
+    <details><summary><span title='click to expand'>TL;DR</span></summary>
+      
+    Exploits deep neural net to enable single-shot imaging of ultracold matter in enhanced quality over the conventional double-shot approach.
+    This tool is shared with the AMO community using the <a href='http://absDL.github.io/'>absDL repository</a>.
+    <br><br></details>
+    
+    <details><summary><span title='click to expand'>Conferences</span></summary>
+      
+    <ul>
+    <li><a href='https://opg.optica.org/conference.cfm?meetingid=155&amp;yr=2020'>CLEO2020</a>: Conference on Lasers and Electro-Optics (virtual, 2020). Reference in proceedings below. <strong>Watch it</strong>: <a href='https://www.dropbox.com/s/jlynled430bknn9/absDL_GN_CLEO.mp4?dl=0' title='mp4 on dropbox'><i class='fas fa-video'></i></a></li> 
+    <li>MICE2019: Molecules, Trapped Ions and Cold Atom Engineering (Israel, 2019).</li>
+    </ul>
+    
+    <br><br></details>
+    
+    <details><summary><span title='click to expand'>Cite it!</span></summary>
+    
+    <center>(BibTeX code)</center>
+    
+    <pre><code>
+
+      @Article{Ness2020a,
+
+      author    = {Gal Ness and Anastasiya Vainbaum and Constantine Shkedrov and Yanay Florshaim and Yoav Sagi},
+
+      journal   = {Physical Review Applied},
+
+      title     = {Single-Exposure Absorption Imaging of Ultracold Atoms Using Deep Learning},
+
+      year      = {2020},
+
+      month     = {jul},
+
+      number    = {1},
+
+      pages     = {014011},
+
+      volume    = {14},
+
+      doi       = {10.1103/physrevapplied.14.014011},
+
+      publisher = {American Physical Society ({APS})},
+
+    }
+
+    </code></pre>
+    
+    <br><br></details>
+    
+    <center>
+    <div class='col-md-4'>
+    <ul class='list-inline social-buttons'>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://doi.org/10.1103/PhysRevApplied.14.014011' title='DOI'><i class='ai ai-doi' style='color:#FFB625'></i></a>
+      </span></li>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://arxiv.org/abs/2003.01643' title='arXiv'><i class='ai ai-arxiv' style='color:#FFF853'></i></a>
+      </span></li>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='http://absDL.github.io/'><i class='fab fa-github'></i></a>
+      </span></li>
+    </ul>
+    </div>  
+    </center>
+
+    <br><br><br><br>
+
+    **Gal Ness**, Constantine Shkedrov, Yanay Florshaim, and [Yoav Sagi](https://phsites.technion.ac.il/sagi/),
+
+    ### Realistic shortcuts to adiabaticity in optical transfer
+
+    ##### [_New Journal of Physics_ (2018)](https://iopscience.iop.org/article/10.1088/1367-2630/aadcc1 ## 'link to paper')
+
+    <details><summary><span title='click to expand'>TL;DR</span></summary>
+      
+    A novel technique for rapidly shuttling ultracold gas while suppressing excitations, a key element in accelerating atom-based quantum computers.
+    <br><br></details>
+    
+    <details><summary><span title='click to expand'>Conferences</span></summary>
+      
+    <ul>
+    <li><strong>Invited colloquium</strong> at the Institute of Applied Physics at the University of Bonn (Germany, 2019).</li>
+    <li>IPS2019: The 64th Annual Meeting of the Israel Physical Society (Israel, 2019).</li>
+    <li><a href='https://coldatoms2018.sciencesconf.org/'>Les Houches</a> predoc school on Ultracold Fermions (France, 2018).</li>
+    <li>The second Annual symposium on Quantum Science and Quantum Engineering (Israel, 2018).</li>
+    <li>IPS2017: The 62nd Annual Meeting of the Israel Physical Society (Israel, 2017).</li>
+    <li>I-CORE: Israeli Centers Of Research Excellence conference on Atomic-Molecular-Optics physics (Israel, 2017).</li>
+    </ul>
+    
+    <br><br></details>
+    
+    <details><summary><span title='click to expand'>Cite it!</span></summary>
+    
+    <center>(BibTeX code)</center>
+    
+    <pre><code>
+
+      @Article{Ness2018,
+      
+      author    = {Gal Ness and Constantine Shkedrov and Yanay Florshaim and Yoav Sagi},
+      
+      journal   = {New Journal of Physics},
+      
+      title     = {Realistic shortcuts to adiabaticity in optical transfer},
+      
+      year      = {2018},
+      
+      month     = sep,
+      
+      number    = {9},
+      
+      pages     = {095002},
+      
+      volume    = {20},
+      
+      doi       = {10.1088/1367-2630/aadcc1},
+      
+      publisher = {{IOP} Publishing},
+
+    }
+
+    </code></pre>
+
+    <br><br></details>
+    
+    <center>
+    <div class='col-md-3'>
+    <ul class='list-inline social-buttons'>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://doi.org/10.1088/1367-2630/aadcc1' title='DOI'><i class='ai ai-doi' style='color:#FFB625'></i></a>
+      </span></li>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://arxiv.org/abs/1805.11889' title='arXiv'><i class='ai ai-arxiv' style='color:#FFF853'></i></a>
+      </span></li>
+    </ul>
+    </div>  
+    </center>
+
+    <br><br><br><br> 
+
+    Constantine Shkedrov, Meny Menashes, **Gal Ness**, Anastasiya Vainbaum, [Ehud Altman](https://sites.google.com/berkeley.edu/ehudaltmansgroup), and [Yoav Sagi](https://phsites.technion.ac.il/sagi/),
+
+    ### Absence of heating in a uniform Fermi gas created by periodic driving
+
+    ##### [_Physical Review X_ (2022)](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.12.011041 ## 'link to paper')
+
+    <details><summary><span title='click to expand'>TL;DR</span></summary>
+      
+    First realization of a ''box'' trap for <sup>40</sup>K atoms enabled by a new approach for generating flat potentials, avoiding single- and many-body excitations.
+    <br><br></details>
+    
+    <details><summary><span title='click to expand'>Conferences</span></summary>
+      
+    <ul>
+    <li><a href='https://www.uibk.ac.at/th-physik/obergurgl2022/'>Quantum Optics Obergurgl 2022</a> (Austria, 2022).</li>
+    </ul>
+    
+    <br><br></details>
+    
+    <details><summary><span title='click to expand'>Cite it!</span></summary>
+    
+    <center>(BibTeX code)</center>
+    
+    <pre><code>
+
+      @Article{Shkedrov2022,
+
+      author    = {Constantine Shkedrov and Meny Menashes and Gal Ness and Anastasiya Vainbaum and Ehud Altman and Yoav Sagi},
+
+      journal   = {Physical Review X},
+
+      title     = {Absence of Heating in a Uniform {F}ermi Gas Created by Periodic Driving},
+
+      year      = {2022},
+
+      month     = {mar},
+
+      number    = {1},
+
+      pages     = {011041},
+
+      volume    = {12},
+
+      doi       = {10.1103/physrevx.12.011041},
+
+      publisher = {American Physical Society ({APS})},
+
+    }
+
+    </code></pre>
+
+    <br><br></details>
+    
+    <center>
+    <div class='col-md-3'>
+    <ul class='list-inline social-buttons'>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://doi.org/10.1103/PhysRevX.12.011041' title='DOI'><i class='ai ai-doi' style='color:#FFB625'></i></a>
+      </span></li>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://arxiv.org/abs/2102.09506' title='arXiv'><i class='ai ai-arxiv' style='color:#FFF853'></i></a>
+      </span></li>
+    </ul>
+    </div>  
+    </center>
+
+    <br><br><br><br> 
+
+    Constantine Shkedrov, **Gal Ness**, Yanay Florshaim, and [Yoav Sagi](https://phsites.technion.ac.il/sagi/),
+
+    ### _In situ_ momentum distribution measurement of a quantum degenerate Fermi gas using Raman spectroscopy
+
+    ##### [_Physical Review A_ (2020)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.013609 ## 'link to paper')
+
+    <details><summary><span title='click to expand'>TL;DR</span></summary>
+      
+    Momentum distribution of a weakly-interacting Fermi gas is directly extracted from the Raman spectra, without ballistic expansion.
+    <br><br> </details>
+    
+    <details><summary><span title='click to expand'>Cite it!</span></summary>
+    
+    <center>(BibTeX code)</center>
+    
+    <pre><code>
+      
+      @Article{Shkedrov2020,
+      
+      author    = {Constantine Shkedrov and Gal Ness and Yanay Florshaim and Yoav Sagi},
+      
+      journal   = {Physical Review A},
+      
+      title     = {\emph{In situ} momentum-distribution measurement of a quantum degenerate {F}ermi gas using {R}aman spectroscopy},
+      
+      year      = {2020},
+      
+      month     = {jan},
+      
+      number    = {1},
+      
+      pages     = {013609},
+      
+      volume    = {101},
+      
+      doi       = {10.1103/physreva.101.013609},
+      
+      publisher = {American Physical Society ({APS})},
+
+    }
+
+    </code></pre>
+
+    <br><br></details>
+    
+    <center>
+    <div class='col-md-3'>
+    <ul class='list-inline social-buttons'>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://doi.org/10.1103/PhysRevA.101.013609' title='DOI'><i class='ai ai-doi' style='color:#FFB625'></i></a>
+      </span></li>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://arxiv.org/abs/1909.12141' title='arXiv'><i class='ai ai-arxiv' style='color:#FFF853'></i></a>
+      </span></li>
+    </ul>
+    </div>  
+    </center>
+
+    <br><br><br><br> 
+
+    Constantine Shkedrov, Yanay Florshaim, **Gal Ness**, Andrey Gandman, and [Yoav Sagi](https://phsites.technion.ac.il/sagi/),
+
+    ### High Sensitivity rf Spectroscopy of a Strongly-Interacting Fermi Gas
+
+    ##### [_Physical Review Letters_ (2018)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.093402 ## 'link to paper')
+
+    <details><summary><span title='click to expand'>TL;DR</span></summary>
+    
+    New rf spectroscopy technique of unprecedented sensitivity reveals precise properties of the BCS-BEC crossover in strongly-interacting Fermi gas.
+    <br><br> </details>
+    
+    <details><summary><span title='click to expand'>Cite it!</span></summary>
+    
+    <center>(BibTeX code)</center>
+    
+    <pre><code>
+
+      @Article{Shkedrov2018,
+
+      author    = {Constantine Shkedrov and Yanay Florshaim and Gal Ness and Andrey Gandman and Yoav Sagi},
+
+      journal   = {Physical Review Letters},
+
+      title     = {High-Sensitivity rf Spectroscopy of a Strongly Interacting {F}ermi Gas},
+
+      year      = {2018},
+
+      month     = {aug},
+
+      number    = {9},
+
+      pages     = {093402},
+
+      volume    = {121},
+
+      doi       = {10.1103/physrevlett.121.093402},
+
+      publisher = {American Physical Society ({APS})},
+
+    }
+
+    </code></pre>
+    
+    <br><br></details>
+    
+    <center>
+    <div class='col-md-3'>
+    <ul class='list-inline social-buttons'>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://doi.org/10.1103/PhysRevLett.121.093402' title='DOI'><i class='ai ai-doi' style='color:#FFB625'></i></a>
+      </span></li>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://arxiv.org/abs/1803.01770' title='arXiv'><i class='ai ai-arxiv' style='color:#FFF853'></i></a>
+      </span></li>
+    </ul>
+    </div>  
+    </center>
+
+    <br><br><br><br> 
+
+    "
+    section: papers
+    
+    
+  preprints:
+    body: "
+    **Gal Ness**, [Andrea Alberti](https://www.quantum-munich.de/person/123080/33307), and [Yoav Sagi](https://phsites.technion.ac.il/sagi/),
+
+    ### Quantum speed limit for states with a bounded energy spectrum
+
+    ##### [_arXiv_:2206.14803 (2022)](https://arxiv.org/abs/2206.14803 ## 'link to paper')
+    
+    ###### Accepted to _Physical Review Letters_
+
+    <details><summary><span title='click to expand'>TL;DR</span></summary>
+      
+    Introduces a third experimentally-relevant quantum speed limit, on top of the two elementary bounds discovered in '45 and '98.
+    <br><br></details>
+    
+    <details><summary><span title='click to expand'>Cite it!</span></summary>
+    
+    <center>(BibTeX code)</center>
+     
+    <pre><code>
+      
+      @Article{Ness2022,
+      
+      author  = {Gal Ness and Andrea Alberti and Yoav Sagi},
+      
+      journal = {arXiv preprint},
+      
+      title   = {Quantum speed limit for states with a bounded energy spectrum},
+      
+      year    = {2022},
+      
+      month   = jun,
+      
+      eprint  = {2206.14803},
+
+    }
+
+    </code></pre>
+
+    <br><br></details>
+    
+    <center>
+    <div class='col-md-3'>
+    <ul class='list-inline social-buttons'>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://doi.org/10.48550/arXiv.2206.14803' title='DOI'><i class='ai ai-doi' style='color:#FFB625'></i></a>
+      </span></li>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://arxiv.org/abs/2206.14803' title='arXiv'><i class='ai ai-arxiv' style='color:#FFF853'></i></a>
+      </span></li>
+    </ul>
+    </div>  
+    </center>
+
+    <br><br><br><br> 
+
+    **Gal Ness**, Amit Oved, and Itzik Kakon,
+
+    ### Derivative Based Focal Plane Array Nonuniformity Correction
+
+    ##### [_arXiv_:1702.06118 (2017)](https://arxiv.org/abs/1702.06118 ## 'link to paper')
+
+    <details><summary><span title='click to expand'>TL;DR</span></summary>
+      
+    A novel method for auto-calibration of infrared detectors, circumventing the need for mechanical shutters.
+    <br><br></details>
+    
+    <details><summary><span title='click to expand'>Conferences</span></summary>
+      
+    <ul>
+    <li><a href='http://oasis7.org.il/'>OASIS6</a>: The 6th International Conference and Exhibition on Optics and Electro-Optics (Israel, 2017).</li>
+    </ul>
+    
+    <br><br></details>
+    
+    <details><summary><span title='click to expand'>Cite it!</span></summary>
+    
+    <center>(BibTeX code)</center>
+     
+    <pre><code>
+      @Article{Ness2017,
+      
+      author  = {Gal Ness and Amit Oved and Itzik Kakon},
+      
+      journal = {arXiv preprint},
+
+      title   = {Derivative Based Focal Plane Array Nonuniformity Correction},
+      
+      year    = {2017},
+      
+      month   = feb,
+      
+      eprint  = {1702.06118},
+
+    }
+
+    </code></pre>
+
+    <br><br></details>
+    
+    <center>
+    <div class='col-md-3'>
+    <ul class='list-inline social-buttons'>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://doi.org/10.48550/arXiv.1702.06118' title='DOI'><i class='ai ai-doi' style='color:#FFB625'></i></a>
+      </span></li>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://arxiv.org/abs/1702.06118' title='arXiv'><i class='ai ai-arxiv' style='color:#FFF853'></i></a>
+      </span></li>
+    </ul>
+    </div>  
+    </center>
+
+    <br><br><br><br> 
+
+    "
+    section: preprints
+    
+    
+  proceedings:
+    body: "
+    **Gal Ness**, Anastasiya Vainbaum, Constantine Shkedrov, Yanay Florshaim, and [Yoav Sagi](https://phsites.technion.ac.il/sagi/),
+    
+    ### Single-Shot Absorption Imaging of Ultracold Atoms using Deep-Neural-Network
+
+    ##### [_CLEO, Quantum Optics in Atomic Ensembles, FW4C.7_ (2020)](https://www.osapublishing.org/abstract.cfm?URI=CLEO_QELS-2020-FW4C.7 ## 'link to paper')
+
+    In proceeding of the 2020 Conference on Lasers and Electro-Optics (CLEO), 10–15 May 2020, San Jose, CA, USA (virtual).
+    
+    <details><summary><span title='click to expand'>Cite it!</span></summary>
+    
+    <center>(BibTeX code)</center>
+    
+    <pre><code>
+
+      @InProceedings{Ness2020b,
+      
+      author       = {Gal Ness and Anastasiya Vainbaum and Constantine Shkedrov and Yanay Florshaim and Yoav Sagi},
+      
+      booktitle    = {2020 Conference on Lasers and Electro-Optics (CLEO)},
+      
+      title        = {Single-Shot Absorption Imaging of Ultracold Atoms Using Deep-Neural-Network},
+      
+      year         = {2020},
+      
+      month        = may,
+      
+      number       = {10},
+      
+      organization = {IEEE},
+      
+      pages        = {FW4C--7},
+      
+      publisher    = {Optica Publishing Group},
+      
+      url          = {https://ieeexplore.ieee.org/abstract/document/9192600},
+
+    }
+
+    </code></pre>
+
+    <br><br></details>
+    
+    <center>
+    <div class='col-md-2'>
+    <ul class='list-inline social-buttons'>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://doi.org/10.1364/CLEO_QELS.2020.FW4C.7' title='DOI'><i class='ai ai-doi' style='color:#FFB625'></i></a>
+      </span></li>
+    </ul>
+    </div>  
+    </center>
+
+    <br><br><br><br> 
+
+    [Joan Adler](https://phys.technion.ac.il/en/people/emeriti/person/7), **Gal Ness**, and Ahmad Kiswani,
+
+    ### GPUs in a computational physics course
+
+    ##### [_Journal of Physics: Conference Series, CCP2016_ (2017)](https://iopscience.iop.org/article/10.1088/1742-6596/905/1/012017/meta ## 'link to paper')
+
+    In proceeding of the 28th annual IUPAP Conference on Computational Physics, 10–14 July 2016, Pretoria, South Africa.
+    
+    <details><summary><span title='click to expand'>Cite it!</span></summary>
+    
+    <center>(BibTeX code)</center>
+    
+    <pre><code>
+
+      @InProceedings{Adler2017,
+
+      author    = {Joan Adler and Gal Nissim and Ahmad Kiswani},
+
+      title     = {{GPUs} in a computational physics course},
+
+      year      = {2017},
+
+      month     = oct,
+
+      pages     = {012017},
+
+      publisher = {{IOP} Publishing},
+
+      volume    = {905},
+
+      doi       = {10.1088/1742-6596/905/1/012017},
+
+      journal   = {Journal of Physics: Conference Series},
+
+    }
+
+    </code></pre>
+
+    <br><br></details>
+    
+    <center>
+    <div class='col-md-2'>
+    <ul class='list-inline social-buttons'>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://doi.org/10.1088/1742-6596/905/1/012017' title='DOI'><i class='ai ai-doi' style='color:#FFB625'></i></a>
+      </span></li>
+    </ul>
+    </div>  
+    </center>
+
+    <br><br><br><br>
+    "
+    section: proceedings
+    
+    
+  preps:
+    body: "
+    Manolo R. Lam, **Gal Ness**, Wolfgang Alt, [Dieter Meschede](http://quantum-technologies.iap.uni-bonn.de/en/group-members/79-dieter-meschede.html), [Yoav Sagi](https://phsites.technion.ac.il/sagi/), and [Andrea Alberti](https://www.quantum-munich.de/person/123080/33307),
+
+    ### Revealing complex matter wave dynamics with Ramsey interferometry
+
+    <br><br><br><br>
+
+    Anastasiya Vainbaum, **Gal Ness**, Amir Stern, and [Yoav Sagi](https://phsites.technion.ac.il/sagi/),
+
+    ### Direct detection of quasiparticles in a unitary Fermi gas
+
+    <br><br><br><br>
+    "
+    section: preps
+    
+    
+  theses:
+    body: "
+    **Gal Ness**,
+
+    ### From one to many: quantum dynamics and interactions of a single atom coupled to many degrees of freedom
+    
+    ##### [Ph.D. dissertation (2022)](https://phsites.technion.ac.il/sagi/publications/ ## 'download from here')
+
+    Submitted to: Technion --- Israel Institute of Technology, Physics department.
+    
+    <details><summary><span title='click to expand'>Cite it!</span></summary>
+    
+    <center>(BibTeX code)</center>
+    
+    <pre><code>@PhdThesis{Ness2022Thesis,
+
+      author = {Gal Ness},
+
+      school = {Technion --- Israel Institute of Technology, Physics department},
+
+      title  = {From one to many: quantum dynamics and interactions of a single atom coupled to many degrees of freedom},
+
+      year   = {2022},
+
+      url    = {https://phsites.technion.ac.il/sagi/publications/},
+
+    }
+
+    </code></pre>
+    
+    <br><br></details>
+    
+    <br><br><br><br>
+
+    **Gal Ness**,
+
+    ### Non-Adiabatic Optical Transport of a Quantum Degenerate Fermi Gas
+    
+    ##### [M.Sc. thesis (2018)](https://phsites.technion.ac.il/sagi/publications/ ## 'download from here')
+
+    Submitted to: Technion --- Israel Institute of Technology, Physics department.
+    
+    <details><summary><span title='click to expand'>Cite it!</span></summary>
+    
+    <center>(BibTeX code)</center>
+    
+    <pre><code>
+
+      @MastersThesis{Ness2018Thesis,
+
+      author = {Gal Ness},
+
+      school = {Technion --- Israel Institute of Technology, Physics department},
+      
+      title  = {Non-Adiabatic Optical Transport of a Quantum Degenerate {F}ermi Gas},
+      
+      year   = {2018},
+      
+      url    = {https://phsites.technion.ac.il/sagi/publications/},
+
+    }
+
+    </code></pre>
+
+    <br><br></details>
+    
+    <br><br><br><br>
+    "
+    section: theses
+    
+  footer:
+    social:
+      - url: https://www.github.com/galNess
+        icon: "fab fa-github"
+      - url: https://scholar.google.com/citations?user=etrneOoAAAAJ&hl=en
+        icon: "ai ai-google-scholar"
+      - url: https://linkedin.com/in/Gal-Ness
+        icon: "fab fa-linkedin-in"
+      - url: http://orcid.org/0000-0003-3598-134X
+        icon: "ai ai-orcid"
+      - url: https://www.researchgate.net/profile/Gal-Ness
+        icon: "fab fa-researchgate"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

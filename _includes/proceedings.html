@@ -1,0 +1,35 @@
+<!-- Conference proceedings -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].proceedings.section | default: "proceedings" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].proceedings.title | default: "Conference proceedings" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].proceedings.text | default: "" }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-left">
+        <div class="large text-muted">{{ site.data.sitetext[site.locale].proceedings.body | markdownify }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="bg-light page-section" id="{{ site.data.sitetext.proceedings.section | default: "proceedings" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.proceedings.title | default: "Conference proceedings" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.proceedings.text | default: "" }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-left">
+        <div class="large text-muted">{{ site.data.sitetext.proceedings.body | markdownify }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- Conference proceedings -->
