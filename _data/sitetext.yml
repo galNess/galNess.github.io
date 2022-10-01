@@ -55,7 +55,7 @@ en: &DEFAULT_EN
              
     ### Observing crossover between quantum speed limits 
 
-    ##### [_Science Advances_ (2021)](https://www.science.org/doi/10.1126/sciadv.abj9119 ## 'link to paper')
+    ##### [_Science Advances_ (2021)](https://www.science.org/doi/10.1126/sciadv.abj9119)
 
     <details><summary><span title='click to expand'>TL;DR</span></summary>
       
@@ -141,12 +141,72 @@ en: &DEFAULT_EN
     </center>
     
     <br><br><br><br>
+    
+    **Gal Ness**, [Andrea Alberti](https://www.quantum-munich.de/person/123080/33307), and [Yoav Sagi](https://phsites.technion.ac.il/sagi/),
+
+    ### Quantum speed limit for states with a bounded energy spectrum
+
+    ##### [_Physical Review Letters_ (2022)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.140403)
+    
+    <details><summary><span title='click to expand'>TL;DR</span></summary>
+    Introduces a third experimentally relevant <q>quantum speed limit,</q> on top of the two elementary bounds discovered in '45 and '98.
+    These limits restrict how quickly a quantum system can change states.
+    <br><br></details>
+    
+    <details><summary><span title='click to expand'>Cite it!</span></summary>
+    
+    <center>(BibTeX code)</center>
+     
+    <pre><code>
+      
+      @Article{Ness2022,
+      
+      author    = {Gal Ness and Andrea Alberti and Yoav Sagi},
+      
+      journal   = {Physical Review Letters},
+      
+      title     = {Quantum Speed Limit for States with a Bounded Energy Spectrum},
+      
+      year      = {2022},
+      
+      month     = {sep},
+      
+      number    = {29},
+      
+      pages     = {140403},
+      
+      volume    = {129},
+      
+      doi       = {10.1103/physrevlett.129.140403},
+      
+      publisher = {American Physical Society ({APS})},
+      
+      }
+
+    </code></pre>
+
+    <br><br></details>
+    
+    <center>
+    <div class='col-md-3'>
+    <ul class='list-inline social-buttons'>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://doi.org/10.1103/physrevlett.129.140403' title='DOI'><i class='ai ai-doi' style='color:#FFB625'></i></a>
+      </span></li>
+      <li class='list-inline-item'><span class='fa-layers fa-fw'>
+        <a href='https://arxiv.org/abs/2206.14803' title='arXiv'><i class='ai ai-arxiv' style='color:#FFF853'></i></a>
+      </span></li>
+    </ul>
+    </div>  
+    </center>
+
+    <br><br><br><br>
 
     **Gal Ness**, Constantine Shkedrov, Yanay Florshaim, Oriana K. Diessel, Jonas von Milczewski, [Richard Schmidt](https://www.mpq.mpg.de/5626798/schmidt), and [Yoav Sagi](https://phsites.technion.ac.il/sagi/),
 
     ### Observation of a Smooth Polaron-Molecule Transition in a Degenerate Fermi Gas
 
-    ##### [_Physical Review X_ (2020)](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.10.041019 ## 'link to paper') 
+    ##### [_Physical Review X_ (2020)](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.10.041019) 
     
     ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Awarded the Jacobs publication excellence prize <i class='fas fa-star' style='color:#FFD43B'></i>
 
@@ -231,7 +291,7 @@ en: &DEFAULT_EN
 
     ### Single-exposure absorption imaging of ultracold atoms using deep learning
 
-    ##### [_Physical Review Applied_ (2020)](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.14.014011 ## 'link to paper')
+    ##### [_Physical Review Applied_ (2020)](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.14.014011)
 
     <details><summary><span title='click to expand'>TL;DR</span></summary>
       
@@ -304,7 +364,7 @@ en: &DEFAULT_EN
 
     ### Realistic shortcuts to adiabaticity in optical transfer
 
-    ##### [_New Journal of Physics_ (2018)](https://iopscience.iop.org/article/10.1088/1367-2630/aadcc1 ## 'link to paper')
+    ##### [_New Journal of Physics_ (2018)](https://iopscience.iop.org/article/10.1088/1367-2630/aadcc1)
 
     <details><summary><span title='click to expand'>TL;DR</span></summary>
       
@@ -377,7 +437,7 @@ en: &DEFAULT_EN
 
     ### Absence of heating in a uniform Fermi gas created by periodic driving
 
-    ##### [_Physical Review X_ (2022)](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.12.011041 ## 'link to paper')
+    ##### [_Physical Review X_ (2022)](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.12.011041)
 
     <details><summary><span title='click to expand'>TL;DR</span></summary>
       
@@ -445,7 +505,7 @@ en: &DEFAULT_EN
 
     ### _In situ_ momentum distribution measurement of a quantum degenerate Fermi gas using Raman spectroscopy
 
-    ##### [_Physical Review A_ (2020)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.013609 ## 'link to paper')
+    ##### [_Physical Review A_ (2020)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.101.013609)
 
     <details><summary><span title='click to expand'>TL;DR</span></summary>
       
@@ -505,7 +565,7 @@ en: &DEFAULT_EN
 
     ### High Sensitivity rf Spectroscopy of a Strongly-Interacting Fermi Gas
 
-    ##### [_Physical Review Letters_ (2018)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.093402 ## 'link to paper')
+    ##### [_Physical Review Letters_ (2018)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.093402)
 
     <details><summary><span title='click to expand'>TL;DR</span></summary>
     
@@ -567,65 +627,11 @@ en: &DEFAULT_EN
     
   preprints:
     body: "
-    **Gal Ness**, [Andrea Alberti](https://www.quantum-munich.de/person/123080/33307), and [Yoav Sagi](https://phsites.technion.ac.il/sagi/),
-
-    ### Quantum speed limit for states with a bounded energy spectrum
-
-    ##### [_arXiv_:2206.14803 (2022)](https://arxiv.org/abs/2206.14803 ## 'link to paper')
-    
-    ###### Accepted to _Physical Review Letters_
-
-    <details><summary><span title='click to expand'>TL;DR</span></summary>
-      
-    Introduces a third experimentally-relevant quantum speed limit, on top of the two elementary bounds discovered in '45 and '98.
-    <br><br></details>
-    
-    <details><summary><span title='click to expand'>Cite it!</span></summary>
-    
-    <center>(BibTeX code)</center>
-     
-    <pre><code>
-      
-      @Article{Ness2022,
-      
-      author  = {Gal Ness and Andrea Alberti and Yoav Sagi},
-      
-      journal = {arXiv preprint},
-      
-      title   = {Quantum speed limit for states with a bounded energy spectrum},
-      
-      year    = {2022},
-      
-      month   = jun,
-      
-      eprint  = {2206.14803},
-
-    }
-
-    </code></pre>
-
-    <br><br></details>
-    
-    <center>
-    <div class='col-md-3'>
-    <ul class='list-inline social-buttons'>
-      <li class='list-inline-item'><span class='fa-layers fa-fw'>
-        <a href='https://doi.org/10.48550/arXiv.2206.14803' title='DOI'><i class='ai ai-doi' style='color:#FFB625'></i></a>
-      </span></li>
-      <li class='list-inline-item'><span class='fa-layers fa-fw'>
-        <a href='https://arxiv.org/abs/2206.14803' title='arXiv'><i class='ai ai-arxiv' style='color:#FFF853'></i></a>
-      </span></li>
-    </ul>
-    </div>  
-    </center>
-
-    <br><br><br><br> 
-
     **Gal Ness**, Amit Oved, and Itzik Kakon,
 
     ### Derivative Based Focal Plane Array Nonuniformity Correction
 
-    ##### [_arXiv_:1702.06118 (2017)](https://arxiv.org/abs/1702.06118 ## 'link to paper')
+    ##### [_arXiv_:1702.06118 (2017)](https://arxiv.org/abs/1702.06118)
 
     <details><summary><span title='click to expand'>TL;DR</span></summary>
       
@@ -690,7 +696,7 @@ en: &DEFAULT_EN
     
     ### Single-Shot Absorption Imaging of Ultracold Atoms using Deep-Neural-Network
 
-    ##### [_CLEO, Quantum Optics in Atomic Ensembles, FW4C.7_ (2020)](https://www.osapublishing.org/abstract.cfm?URI=CLEO_QELS-2020-FW4C.7 ## 'link to paper')
+    ##### [_CLEO, Quantum Optics in Atomic Ensembles, FW4C.7_ (2020)](https://www.osapublishing.org/abstract.cfm?URI=CLEO_QELS-2020-FW4C.7)
 
     In proceeding of the 2020 Conference on Lasers and Electro-Optics (CLEO), 10–15 May 2020, San Jose, CA, USA (virtual).
     
@@ -744,7 +750,7 @@ en: &DEFAULT_EN
 
     ### GPUs in a computational physics course
 
-    ##### [_Journal of Physics: Conference Series, CCP2016_ (2017)](https://iopscience.iop.org/article/10.1088/1742-6596/905/1/012017/meta ## 'link to paper')
+    ##### [_Journal of Physics: Conference Series, CCP2016_ (2017)](https://iopscience.iop.org/article/10.1088/1742-6596/905/1/012017/meta)
 
     In proceeding of the 28th annual IUPAP Conference on Computational Physics, 10–14 July 2016, Pretoria, South Africa.
     
@@ -818,7 +824,7 @@ en: &DEFAULT_EN
 
     ### From One to Many: Quantum Dynamics and Interactions of a Single Atom Coupled to Many Degrees of Freedom
     
-    ##### [Ph.D. dissertation (2022)](https://www.dropbox.com/s/p0me9c2j975wr0i/Gal_s_PhD_thesis.pdf?dl=0 ## 'download from here')
+    ##### [Ph.D. dissertation (2022)](https://www.dropbox.com/s/p0me9c2j975wr0i/Gal_s_PhD_thesis.pdf?dl=0)
 
     Submitted to: Technion --- Israel Institute of Technology, Physics department.
     
@@ -850,7 +856,7 @@ en: &DEFAULT_EN
 
     ### Non-Adiabatic Optical Transport of a Quantum Degenerate Fermi Gas
     
-    ##### [M.Sc. thesis (2018)](https://phsites.technion.ac.il/sagi/publications/ ## 'download from here')
+    ##### [M.Sc. thesis (2018)](https://phsites.technion.ac.il/sagi/publications/)
 
     Submitted to: Technion --- Israel Institute of Technology, Physics department.
     
